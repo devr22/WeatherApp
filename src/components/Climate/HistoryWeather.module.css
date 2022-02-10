@@ -1,0 +1,24 @@
+.heading {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-family: "Supermercado One", cursive;
+  color: #37474f;
+  font-size: 28px;
+}
+
+.heading:hover {
+  text-decoration: none;
+}
+
+.main {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.table_bg {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+  border: 0.5px solid gainsboro;
+}

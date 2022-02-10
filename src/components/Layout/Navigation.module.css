@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar_brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_brand img {
+  width: 90px;
+  height: 90px;
+  animation-name: logo;
+  animation-duration: 3s;
+  z-index: 2;
+  animation-iteration-count: 1;
+}
+
+.navbar_brand h2 {
+  z-index: 2;
+  font-family: "Supermercado One", cursive;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px rgb(247, 243, 10, 0.6);
+}
+
+.navLink {
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  border-bottom: 2px solid white;
+}
+
+
+@keyframes logo {
+  from {
+    transform: scale(0.5, 0.5);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}

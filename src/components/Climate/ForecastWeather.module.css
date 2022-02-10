@@ -1,0 +1,17 @@
+.heading {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-family: "Supermercado One", cursive;
+  color: #37474f;
+  font-size: 28px;
+}
+
+.heading:hover {
+  text-decoration: none;
+}
+
+.main {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
